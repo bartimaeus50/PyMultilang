@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # 모델 불러오기
-vectorizer, model = joblib.load("freq.pkl")
+model = joblib.load("freq.pkl")
 
 # 제목
 st.title("외국어 문장 판별")
