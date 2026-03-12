@@ -11,7 +11,7 @@ st.title("외국어 문장 판별")
 st.write("외국어 입력 (입력후 CTRL + ENTER)")
 
 # 문장 입력창
-text = st.text_area("")
+text = st.text_area("외국어 문장 입력", label_visibility="collapsed")
 
 # 입력이 있으면 자동 분석
 if text:
