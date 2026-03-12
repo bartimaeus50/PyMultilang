@@ -10,4 +10,4 @@ text = st.text_area("외국어 문장 입력", label_visibility="collapsed")
 
 if text:
     pred = model.predict([text])[0]
-    st.write(pred))
+    st.write(pred)
